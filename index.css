@@ -1,0 +1,279 @@
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+} 
+
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    width: 600px;
+} 
+
+header{
+    background-image: url('images/hamburger.jpg');
+    background-size: cover;
+    height: 167px;
+    width: 600px;
+    color: #ffffff;
+    height: 167px;
+  
+    
+}
+
+main{
+    width: 504px;
+    margin: 0 auto;
+}
+
+
+.title{
+    position: absolute;
+    margin-left: 46px;
+    margin-top: 56px;
+}
+
+.header-title{
+    font-size: 39px;
+}
+
+.header-desc{
+    font-size: 23px;
+}
+
+
+.menuItem{
+    width: 504px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.menu-emoji{
+    font-size: 79px;
+    margin-left: 40px;
+ 
+}
+
+.menuText{
+    margin-left: 20px;
+    width: 358px;
+ 
+}
+
+.item-title{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.item-desc{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.item-price{
+    font-size: 20px;
+}
+
+.inner{
+      border-bottom: 2px solid #D2D2D2;
+      width: 504px;
+      margin: 0 auto;
+}
+
+#add{
+    margin-left: 100px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    color: #3C3C3C;
+    border: 1px solid #DEDEDE;
+}
+
+#add:hover{
+    background-color: #EB6440;
+}
+
+.total-price-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.order-title{
+    font-size: 28px;
+    width: 100px;
+    height: 17px;
+    margin: 30px auto 0 auto;
+    
+}
+
+.inner-two{
+     border-bottom: 2px solid #393333;
+      width: 504px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 100px;
+}
+
+.total-price-title{
+    font-size: 28px;
+    color: #0E0E0E;
+    margin-top: 20px;
+}
+
+.total-price{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.order-item{
+    margin-top:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ordred-menu-title{
+    font-size: 28px;
+}
+
+.ordered-menu-price{
+    font-size: 20px;
+}
+
+#remove{
+    background-color: #7743DB;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Smythe', cursive;
+    color: #ffffff;
+}
+
+#remove:hover{
+    background-color: #3B3486;
+}
+
+.purchase-btn{
+    width: 508px;
+    height: 60px;
+    margin: 30px auto 0 auto;
+    background-color: #16DB99;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Verdana';
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+
+.purchase-btn:hover, .pay-btn:hover{
+    background-color: #FFFBC1;
+    color: #000000;
+}
+
+
+
+.modal-title{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    width: 384px;
+    height: 41px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 542px;
+    width: 524px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #ffffff;
+    color: whitesmoke;
+}
+
+
+.modal-pay-btn{
+    width: 476px;
+    height: 60px;
+    margin: 300px auto 0 auto;
+}
+
+.pay-btn{
+    width: 476px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #16DB99;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Verdana';
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700
+}
+
+
+.inputs{
+     width: 475px;
+    height: 71px;
+    margin: 0 auto;
+    
+}
+
+input {
+    width: 475px;
+    height: 71px;
+    margin-bottom: 25px;
+    border-style: none;
+    color: #757575;
+    border: 1.29664px solid #757575;
+    border-radius: 3.88991px;
+
+}
+
+
+.order-complete{
+    width: 504px;
+    height: 120px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    margin-top: 30px;
+    padding-top: 60px;
+      
+}
+
+.thanks-message{
+    font-family: 'Smythe';
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: #065F46;
+}

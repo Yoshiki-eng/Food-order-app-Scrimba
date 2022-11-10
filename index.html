@@ -1,0 +1,57 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" referrerpolicy="no-referrer"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class='title'>
+                <h1 class='header-title'>Jimmy's Diner</h1>
+                <p class='header-desc'>The best burgers and pizzas in town</p>
+            </div>
+        </header>
+        
+        <main>
+            <div class='menu' id='menu'>
+            <!-- Render menue here -->
+            </div>
+            <div id='bottom-section'>
+                <h1 class='order-title'>Your Order</h1>    
+                <div class='your-order' id='your-order'>
+                    <!-- Render your order here -->     
+                </div>
+                <div class='total-price-section' id='total-price-section'>   
+                    <h2 class='total-price-title'>Total Price</h2>
+                    <h2 class='total-price' id='total-price'>$0</h2>
+                </div>
+                
+                <div class='purchase-btn-section' id='purchase-btn-section'>
+                    <button class='purchase-btn'  id='purchase-btn'>Complete Order</buton>
+                </div>
+              </div>
+        </main>
+            <div class="modal" id="modal">
+                <h1 class='modal-title'>Enter card details</h1>
+		        <div class="modal-inner" id="modal-inner">
+                    <form id="payment-form">
+                        <div class='inputs'>
+                            <input type="text" name="fullName" placeholder="Enter your name" required/>
+                            <input type="number" name="card-number" placeholder="Enter your card number" required/>
+                            <input type='numbet' name='cvv' placeholder="Enter your CVV" required/>
+                        </div>
+             
+
+                        <div class="modal-pay-btn" id="modal-pay-btn">
+                            <button type="submit" class="pay-btn" id='pay-btn'>Pay</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+	<script src="index.js" type='module'></script>
+    </body>
+</html>
+
