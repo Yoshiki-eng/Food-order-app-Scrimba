@@ -23,7 +23,7 @@ body {
 } 
 
 header{
-    background-image: url('images/hamburger.jpg');
+    background-image: url('hamburger.jpg');
     background-size: cover;
     height: 167px;
     width: 600px;
